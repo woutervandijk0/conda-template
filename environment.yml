@@ -1,0 +1,10 @@
+name: conda-env
+channels:           #Select Repositories
+    - defaults
+#    - conda
+#    - conda-forge
+#    - nodefaults   #Remove default Repository
+dependencies:
+    - python
+    - numpy
+    - matplotlib
