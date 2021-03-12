@@ -1,3 +1,5 @@
+requirements/anaconda_path.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -102,9 +104,10 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+conda-env/
+
 .env
 .venv
-conda-env/
 env/
 venv/
 ENV/
