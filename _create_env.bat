@@ -4,8 +4,10 @@ set env_name=conda-env
 set root=%~dp0
 set /p anaconda_dir=<%root%\requirements\anaconda_path.txt
 
+echo %anaconda_dir%
+
 REM Start anaconda prompt
-call %anaconda_dir%\Scripts\activate.bat %anaconda_dir%
+call %anaconda_dir%\scripts\activate.bat %anaconda_dir%
 
 REM Check if there is already an environment named %env_name%.
 REM If true: update packages from "environment.yml".

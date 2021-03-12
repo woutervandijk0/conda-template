@@ -2,9 +2,13 @@ name: conda-env
 channels:           #Select Repositories
     - defaults
 #    - conda
-#    - conda-forge
+    - conda-forge
 #    - nodefaults   #Remove default Repository
 dependencies:
     - python
     - numpy
     - matplotlib
+    - scipy
+    - cvxopt
+    - scikit-learn
+    - tensorflow
