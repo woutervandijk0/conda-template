@@ -13,7 +13,7 @@ Please go to https://www.anaconda.com for the latest Anaconda installation.
   _anaconda.bat*: 	Open a conda prompt and activate the conda-env enviroment
 * _create_env.bat must be ran prior to calling this batch file.
 
-% Required input from user:
+# Required input from user:
 ./requirements/anacondat_path.txt: 	 This file contains the path to the anaconda installation on this system.
 
 ## Packages
@@ -34,14 +34,14 @@ Set-up the environment:
 ## Debugging
 * Make sure that the paths to this map do not contain spaces. This will prevent the _create_env.bat and other files to work correctly. 
 * You might have to run _create_env.bat twice; One time to install all the packages and a second time to update all packages.
-* Deleting the /conda-env folder and re-installing using _create_env.bat might help a broken installation.
+* Deleting the /conda-env folder and re-installing using _create_env.bat might help a broken installation/environment.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
 # TO-DO:
-Batch file for removing the enviroment
+Batch file for removing the conda-env enviroment
 
 
 Author:			Wouter van Dijk
