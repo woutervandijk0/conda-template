@@ -7,11 +7,11 @@ Please go to https://www.anaconda.com for the latest Anaconda installation.
 ## Overview
 
 Windows batch files:
- _create_env.bat: 	Create an conda environment, install spyder and install the required packages (as listed in requirements.yml)
-    _spyder.bat*:	Open spyder and activate the conda-env environment 
-    _python.bat*:	Open a python prompt and activate the conda-env enviroment
-  _anaconda.bat*: 	Open a conda prompt and activate the conda-env enviroment
-* _create_env.bat must be ran prior to calling this batch file.
+* _create_env.bat: 	Create an conda environment, install spyder and install the required packages (as listed in requirements.yml)
+*    _spyder.bat:	Open spyder and activate the conda-env environment 
+*    _python.bat:	Open a python prompt and activate the conda-env enviroment
+*  _anaconda.bat: 	Open a conda prompt and activate the conda-env enviroment
+NOTE: _create_env.bat must be ran prior to calling the _spyder/_python/_anaconda.bat files.
 
 ## Required input from user:
 ./requirements/anacondat_path.txt: 	 This file contains the path to the anaconda installation on this system.
