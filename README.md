@@ -11,6 +11,7 @@ Windows batch files:
 *    _spyder.bat:	Open spyder and activate the conda-env environment 
 *    _python.bat:	Open a python prompt and activate the conda-env enviroment
 *  _anaconda.bat: 	Open a conda prompt and activate the conda-env enviroment
+
 NOTE: _create_env.bat must be ran prior to calling the _spyder/_python/_anaconda.bat files.
 
 ## Required input from user:
