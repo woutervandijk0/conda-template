@@ -1,19 +1,19 @@
-# Introduction
+## Introduction
 
 This python template can be used to create and access python projects easily with minimal input from the user. 
 The template is based on Anaconda, which must be installed prior to running this installation. 
 Please go to https://www.anaconda.com for the latest Anaconda installation. 
 
-# Overview
+## Overview
 
-% Windows batch files:
+Windows batch files:
  _create_env.bat: 	Create an conda environment, install spyder and install the required packages (as listed in requirements.yml)
     _spyder.bat*:	Open spyder and activate the conda-env environment 
     _python.bat*:	Open a python prompt and activate the conda-env enviroment
   _anaconda.bat*: 	Open a conda prompt and activate the conda-env enviroment
 * _create_env.bat must be ran prior to calling this batch file.
 
-# Required input from user:
+## Required input from user:
 ./requirements/anacondat_path.txt: 	 This file contains the path to the anaconda installation on this system.
 
 ## Packages
@@ -40,7 +40,7 @@ Set-up the environment:
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-# TO-DO:
+## TO-DO:
 Batch file for removing the conda-env enviroment
 
 
