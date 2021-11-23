@@ -46,7 +46,4 @@ REM de-activate environment
 call conda deactivate
 ECHO Finished creating/updating environment...
 Pause
-
-REM remove environment
-REM call conda remove -p %root%/%env_name% --all
  
